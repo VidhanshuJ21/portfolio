@@ -1,0 +1,52 @@
+{
+	"title": "Computation Analysis of Aerodynamic Parameters on Different Sweep Angles on the Missile",
+	"intro": "This project conducted a computational fluid dynamics analysis on a missile with diamond airfoil wings to determine the optimal wing sweep angle for improved flight performance, enhancing supersonic projectile stability and range.",
+	"technologies": ["ANSYS Fluent", "Fusion360", "Solidworks", "DATCOM"],
+	"sections": [
+		{
+			"id": 1,
+			"title": "Overview",
+			"content": "The missile geometry was designed in SolidWorks and Fusion 360. The missile features a streamlined fuselage with a diamond airfoil wing configuration. The wings were parametrically varied by sweep angles of 0°, 15°, 30°, 45°, 60°, and 75°, maintaining consistent span and chord dimensions. Each configuration was modeled as a 3D solid body suitable for high-speed external flow simulations.",
+			"images": [
+				{
+					"id": 1,
+					"src": "/src/assets/PROJECT/PROJECT-02/MSW-01.png",
+					"alt": "Different sweep angles Missile Configuration"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"title": "Methodology",
+			"content": "A cylindrical computational domain was created to simulate realistic far-field aerodynamic behavior, with an input of pressure far-field (Mach 4), walls modeled as no-slip, and an outlet of pressure outlet. A density-based, steady-state solver with the k-ω SST turbulence model was used for accurate high-speed boundary layer modeling. The mesh was generated using an unstructured tetrahedral approach with refinement near the missile body and the leading/trailing edges of the wings to capture shock waves and boundary layers effectively. Inflation layers were applied to resolve near-wall gradients for accurate lift and drag prediction.",
+			"images": [
+				{ "id": 2, "src": "/src/assets/PROJECT/PROJECT-02/MSW-02.png", "alt": "Computational Domain" },
+				{ "id": 3, "src": "/src/assets/PROJECT/PROJECT-02/MSW-03.png", "alt": "Unstructured Mesh" }
+			]
+		},
+		{
+			"id": 3,
+			"title": "Results & Analysis",
+			"content": "The study evaluated the aerodynamic efficiency of the missile at Mach 4 by extracting lift and drag coefficients at each sweep angle. The optimal sweep angle was found to be 30°. Wings with higher sweep angles suffer from increased drag due to vortex generation and disturbed flow patterns. These insights are vital for optimizing missile designs for supersonic regimes.",
+			"images": [
+				{
+					"id": 4,
+					"src": "/src/assets/PROJECT/PROJECT-02/MSW-04.png",
+					"alt": "Coefficient of Lift and Drag Comparison"
+				},
+				{
+					"id": 5,
+					"src": "/src/assets/PROJECT/PROJECT-02/MSW-05.png",
+					"alt": "Cl Comparison: ANSYS-CFD vs DATCOM"
+				},
+				{
+					"id": 6,
+					"src": "/src/assets/PROJECT/PROJECT-02/MSW-06.png",
+					"alt": "Cd Comparison: ANSYS-CFD vs DATCOM"
+				},
+				{ "id": 7, "src": "/src/assets/PROJECT/PROJECT-02/MSW-07.png", "alt": "Mach Contours" },
+				{ "id": 8, "src": "/src/assets/PROJECT/PROJECT-02/MSW-08.png", "alt": "Pressure Contours" }
+			]
+		}
+	]
+}

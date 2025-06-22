@@ -1,0 +1,88 @@
+{
+	"title": "Design And Structural Analysis of a Planetary Rover Wheel",
+	"intro": "This study explores the structural integrity and performance of a rover wheel under lunar surface conditions using Finite Element Analysis, aiming to optimize wheel performance and adaptability.",
+	"technologies": ["ANSYS Structural and Modal Analysis", "Solidworks"],
+	"sections": [
+		{
+			"id": 1,
+			"title": "Overview",
+			"content": "Rover wheels are designed with high compliance and traction to handle soft, irregular terrain; they rely on low pressure and high surface area to minimize sinkage and improve stability on lunar or Martian soil.",
+			"images": [
+				{
+					"id": 1,
+					"src": "/src/assets/PROJECT/PROJECT-05/W-09.png",
+					"alt": "Experimental Set-Up"
+				},
+				{
+					"id": 2,
+					"src": "/src/assets/PROJECT/PROJECT-05/W-10.png",
+					"alt": "Set-Up Switch"
+				},
+				{
+					"id": 3,
+					"src": "/src/assets/PROJECT/PROJECT-05/W-11.png",
+					"alt": "Propeller Design in CATIA V5"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"title": "Design Methodology",
+			"content": "SolidWorks was used to create a 3D model of a rubber-free rover wheel, focusing on spoke design, hub assembly, wheel diameter, and material distribution for optimal performance.",
+			"images": [
+				{
+					"id": 4,
+					"src": "/src/assets/PROJECT/PROJECT-05/W-01.png",
+					"alt": "Static Computational Domain"
+				},
+				{
+					"id": 5,
+					"src": "/src/assets/PROJECT/PROJECT-05/W-02.png",
+					"alt": "Rotary Computational Domain"
+				},
+				{
+					"id": 6,
+					"src": "/src/assets/PROJECT/PROJECT-05/W-03.png",
+					"alt": "Rotary Domain Mesh"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"title": "Results & Analysis",
+			"content": "The study found that the structural behavior of the vehicle was satisfactory, with maximum von Mises stress at spoke-hub junctions below the yield limit of structural steel. The design of lighter spoke shapes with curvature showed better flexibility while maintaining load-bearing capability. The terramechanics insights showed improved vertical stability with wider rims and lower spoke count, enabling better traction and sinkage resistance. Future designs should incorporate real-time soil feedback for adaptive performance.",
+			"images": [
+				{
+					"id": 7,
+					"src": "/src/assets/PROJECT/PROJECT-05/W-04.jpg",
+					"alt": "Velocity Contours"
+				},
+				{
+					"id": 8,
+					"src": "/src/assets/PROJECT/PROJECT-05/W-05.jpg",
+					"alt": "Pressure Contours 1"
+				},
+				{
+					"id": 9,
+					"src": "/src/assets/PROJECT/PROJECT-05/W-06.jpg",
+					"alt": "Pressure Contours 2"
+				},
+				{
+					"id": 10,
+					"src": "/src/assets/PROJECT/PROJECT-05/W-07.jpg",
+					"alt": "Thrust Comparison: CFD vs Experimental"
+				},
+				{
+					"id": 11,
+					"src": "/src/assets/PROJECT/PROJECT-05/W-08.jpg",
+					"alt": "Velocity Contours 2"
+				},
+				{
+					"id": 12,
+					"src": "/src/assets/PROJECT/PROJECT-05/W-12.png",
+					"alt": "Velocity Contours 3"
+				}
+			]
+		}
+	]
+}
