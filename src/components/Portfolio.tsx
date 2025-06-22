@@ -3,18 +3,18 @@ import { Link } from 'react-router-dom';
 export const Portfolio = () => {
   // Sample portfolio items data with image paths
   const portfolioItems = [
-    { id: 1, title: 'Design of MHD Thruster', image: '/assets/projects/project1.jpg' },
-    { id: 2, title: 'Drone Frame Design', image: '/assets/projects/project2.jpg' },
-    { id: 3, title: 'Design of Leaf Spring', image: '/assets/projects/project3.jpg' },
-    { id: 4, title: 'Wing Design', image: '/assets/projects/project4.jpg' },
-    { id: 5, title: 'Rove Model', image: '/assets/projects/project5.jpg' },
-    { id: 6, title: 'Wing-Propeller model', image: '/assets/projects/project6.jpg' },
-    { id: 7, title: 'Wind Tunnel Model', image: '/assets/projects/project7.jpg' },
-    { id: 8, title: 'Furniture Design', image: '/assets/projects/project8.jpg' },
-    { id: 9, title: 'Sofa Set Design', image: '/assets/projects/project9.jpg' },
-    { id: 10, title: 'Centrifugal Impeller Design', image: '/assets/projects/project10.jpg' },
-    { id: 11, title: 'Spring Design', image: '/assets/projects/project11.jpg' },
-    { id: 12, title: 'Car Chassis Design', image: '/assets/projects/project12.jpg' },
+    { id: 1, title: 'Design of MHD Thruster', image: '/src/assets/Poster_cover/Portfolio-01.png' },
+    { id: 2, title: 'Drone Frame Design', image: '/src/assets/Poster_cover/Portfolio-02.png' },
+    { id: 3, title: 'Design of Leaf Spring', image: '/src/assets/Poster_cover/Portfolio-03.png' },
+    { id: 4, title: 'Wing Design', image: '/src/assets/Poster_cover/Portfolio-04.png' },
+    { id: 5, title: 'Rover Model', image: '/src/assets/Poster_cover/Portfolio-05.png' },
+    { id: 6, title: 'Wing-Propeller model', image: '/src/assets/Poster_cover/Portfolio-06.png' },
+    { id: 7, title: 'Wind Tunnel Model', image: '/src/assets/Poster_cover/Portfolio-07.png' },
+    { id: 8, title: 'Furniture Design', image: '/src/assets/Poster_cover/Portfolio-08.png' },
+    { id: 9, title: 'Sofa Set Design', image: '/src/assets/Poster_cover/Portfolio-09.png' },
+    { id: 10, title: 'Centrifugal Impeller Design', image: '/src/assets/Poster_cover/Portfolio-10.png' },
+    { id: 11, title: 'Spring Design', image: '/src/assets/Poster_cover/Portfolio-11.png' },
+    { id: 12, title: 'Car Chassis Design', image: '/src/assets/Poster_cover/Portfolio-12.png' },
   ];
    
   return (

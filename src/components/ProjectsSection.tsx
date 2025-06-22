@@ -4,14 +4,14 @@ export const ProjectsSection = () => {
   const projects = [
     { 
       id: '1', 
-      image: '/assets/projects/project1.jpg',
+      image: '/src/assets/Poster_cover/Project-01.png',
       title: 'Distributed Propulsion System',
       description: 'Computational analysis of multi-propeller configurations and their aerodynamic effects on aircraft performance.',
       tags: ['ANSYS Fluent', 'SimScale', 'XFLR5','Onshape','Fusion360']
     },
     { 
       id: '2', 
-      image: '/assets/projects/project2.jpg',
+      image: '/src/assets/Poster_cover/Project-02.png',
       title: 'Variable Sweep Wing on Missile Body',
       description: 'Study of various high-lift devices and their impact on wing performance using advanced CFD techniques.',
       tags: ['ANSYS Fluent', 'SolidWorks','DATCOM','Fusion360']
@@ -19,24 +19,28 @@ export const ProjectsSection = () => {
     { 
       id: '3', 
       title: 'Experimental vs Computation Analysis of Propeller',
+      image: '/src/assets/Poster_cover/Project-03.png',
       description: 'Computational analysis of missile aerodynamic parameters and their impact on missile performance.',
       tags: ['ANSYS Fluent', 'Experimental Setup','Solidworks']
     },
     { 
       id: '4', 
       title: 'Pomodoro App',
+      image: '/src/assets/Poster_cover/Project-04.png',
       description: 'Set Timer for Pomodoro Technique',
       tags: ['Rust', 'TypeScript']
     },
     { 
       id: '5', 
       title: 'Rover Wheel Finite Element Analysis',
+      image: '/src/assets/Poster_cover/Project-05.png',
       description: 'Finite Element Analysis of Rover Wheel spoke with optimized design',
       tags: ['ANSYS-Static Structure and Modal Analysis','SolidWorks']
     },
     { 
       id: '6', 
       title: 'CubeSat Design and Analysis',
+      image: '/src/assets/Poster_cover/Project-06.png',
       description: 'This project involves design and propulsion system of CubeSat',
       tags: ['Onshape', 'Real Time data', 'Propulsion system','Review']
     },
