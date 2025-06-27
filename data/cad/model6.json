@@ -15,7 +15,7 @@
 		{
 			"id": 2,
 			"title": "Draft",
-			"content": "The draft of the design was created in Onshape. An A4 sheet was used with a drawing scale of 1:2, and all dimensions are shown in millimeters.",
+			"content": "The draft of the design was created in Onshape. All dimensions are in millimeters.",
 			"images": [
 				{ "id": 4, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-6/WP-04.png" },
 				{ "id": 5, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-6/P-01.png" }
