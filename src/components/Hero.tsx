@@ -90,8 +90,10 @@ export const Hero = () => {
 								<img
 									src="/portfolio/src/assets/Poster_cover/VJportfolio-image.jpg"
 									alt="Vidhanshu Jadhav"
-									className="w-full h-full object-cover"
+									className="w-full h-half object-cover"
 									loading="eager"
+                  width={1280}
+                  height={1707}
 								/>
 								{/* Gradient Overlay */}
 								<div className="absolute inset-0 bg-gradient-to-t from-orange/20 to-transparent"></div>
