@@ -1,0 +1,23 @@
+{
+	"title": "Centrifugal Impeller Design",
+	"intro": "Centrifugal impellers are crucial in turbomachinery, converting rotational energy into fluid motion. They accelerate fluid radially outward, increasing pressure and kinetic energy. Efficient impeller design requires precise aerodynamic shaping, structural robustness, and material suitability.",
+	"technologies": ["Onshape"],
+	"specifications": [{ "parameter": "Material", "value": "Nickel" }],
+	"sections": [
+		{
+			"id": 1,
+			"title": "Overview",
+			"images": [
+				{ "id": 1, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-10/CI-01.png" },
+				{ "id": 2, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-10/CI-02.png" },
+				{ "id": 3, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-10/CI-03.png" }
+			]
+		},
+		{
+			"id": 2,
+			"title": "Draft",
+			"content": "The draft of the design was created in Onshape. All dimensions are in millimeters.",
+			"images": [{ "id": 4, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-10/CI-06.png" }]
+		}
+	]
+}

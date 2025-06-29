@@ -1,0 +1,28 @@
+{
+	"title": "Internal Structure of Aircraft Wing Design and its Finite Element Analysis",
+	"intro": "Rovers are essential for surface exploration, navigating rugged terrain, carrying payloads, and withstanding environmental stress. Design challenges include creating lightweight, durable, and cost-effective structures that meet mission-specific requirements.",
+	"technologies": ["CATIA V5", "Ansys", "Onshape"],
+	"specifications": [
+		{ "parameter": "Material 1", "value": "PVC" },
+		{ "parameter": "Material 2", "value": "Silicone" }
+	],
+	"sections": [
+		{
+			"id": 1,
+			"title": "Overview",
+			"content": "Design of a Rover",
+			"images": [
+				{ "id": 1, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-5/RO-01.png" },
+				{ "id": 2, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-5/RO-02.png" },
+				{ "id": 3, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-5/RO-03.png" },
+				{ "id": 4, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-5/RO-04.png" }
+			]
+		},
+		{
+			"id": 2,
+			"title": "Draft",
+			"content": "The draft of the design was created in Onshape. All dimensions are in millimeters.",
+			"images": [{ "id": 5, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-5/RO-07.png" }]
+		}
+	]
+}

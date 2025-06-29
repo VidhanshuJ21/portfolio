@@ -1,0 +1,56 @@
+{
+	"title": "Design and Finite Element Analysis of Leaf Spring",
+	"intro": "Leaf springs are essential suspension components in automotive and heavy vehicle systems due to their simplicity, cost-effectiveness, and load-bearing capabilities. Made from high-strength steel, they absorb shocks, maintain vehicle height, and transmit loads from the axle to the chassis. The materials used in this design are Gray Cast Iron, Glass Fibre Epoxy, and Carbon Fiber Reinforced Polymer.",
+	"technologies": ["CATIA V5", "Ansys", "Onshape"],
+	"specifications": [
+		{ "parameter": "Material 1", "value": "Cast Iron" },
+		{ "parameter": "Material 2", "value": "Glass Fibre Epoxy" },
+		{
+			"parameter": "Material 3",
+			"value": "Carbon Fiber Reinforced Polymer"
+		}
+	],
+	"sections": [
+		{
+			"id": 1,
+			"title": "Overview",
+			"content": "This design was created in CATIA V5. The images showcase the parts from front, side, and isometric views.",
+			"images": [
+				{ "id": 1, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOILO-3/LF-01.png" },
+				{ "id": 2, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOILO-3/LF-02.png" }
+			]
+		},
+		{
+			"id": 2,
+			"title": "Draft",
+			"content": "The draft of the design was created in Onshape. All dimensions are in millimeters.",
+			"images": [{ "id": 3, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOILO-3/LF-03.png" }]
+		},
+		{
+			"id": 3,
+			"title": "Meshing and Boundary Conditions",
+			"content": "A mesh size of 3.5 mm was applied. Two fixed supports were assigned, and a force of 400 N was applied as shown.",
+			"images": [
+				{ "id": 4, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOILO-3/LF-04.png" },
+				{ "id": 5, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOILO-3/LF-05.png" },
+				{ "id": 6, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOILO-3/LF-06.png" }
+			]
+		},
+		{
+			"id": 4,
+			"title": "Finite Element Analysis – ANSYS FEA Structural",
+			"content": "The FEA analysis was performed with the mesh and boundary conditions defined. The results include total deformation, equivalent stress and strain, maximum shear stress, principal stress, and shear stress.",
+			"images": [
+				{ "id": 7, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOILO-3/LF-07.png" },
+				{ "id": 8, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOILO-3/LF-08.png" },
+				{ "id": 9, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOILO-3/LF-09.png" },
+				{ "id": 10, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOILO-3/LF-10.png" },
+				{ "id": 11, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOILO-3/LF-11.png" },
+				{ "id": 12, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOILO-3/LF-12.png" },
+				{ "id": 13, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOILO-3/LF-13.png" },
+				{ "id": 14, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOILO-3/LF-14.png" },
+				{ "id": 15, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOILO-3/LF-15.png" }
+			]
+		}
+	]
+}

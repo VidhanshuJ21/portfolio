@@ -1,0 +1,25 @@
+{
+	"title": "Design of a Furniture",
+	"intro": "The furniture was designed in Onshape.",
+	"technologies": ["Onshape"],
+	"specifications": [
+		{ "parameter": "Material", "value": "Redwood" },
+		{ "parameter": "Weight", "value": "745 kg" }
+	],
+	"sections": [
+		{
+			"id": 1,
+			"title": "Overview",
+			"images": [
+				{ "id": 1, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-8/FUR-01.png" },
+				{ "id": 2, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-8/FUR-02.png" }
+			]
+		},
+		{
+			"id": 2,
+			"title": "Draft",
+			"content": "The draft of the design was created in Onshape. All dimensions are in millimeters.",
+			"images": [{ "id": 3, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-8/FUR-05.png" }]
+		}
+	]
+}

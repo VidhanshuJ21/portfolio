@@ -1,0 +1,54 @@
+{
+	"title": "3D CFD Simulation and Experimental Investigation of a Wooden Two Blade Propeller at Different Velocities",
+	"intro": "This study analyzes the aerodynamic performance of a 1200 mm propeller using experimental testing and Computational Fluid Dynamics (CFD). It validates the accuracy and reliability of the simulation method by comparing experimental thrust measurements with predicted thrust at varying RPMs.",
+	"technologies": ["ANSYS Fluent", "CATIA V5", "Experimental Setup"],
+	"sections": [
+		{
+			"id": 1,
+			"title": "Overview",
+			"content": "The aircraft propeller, modeled in CATIA V5, was designed with precision aerodynamic profiling to replicate realistic performance. It has a diameter of 1200 mm, a blade configuration of 0° rake and skew angle, and uses a Clark Y airfoil.",
+			"images": [
+				{ "id": 1, "src": "/src/assets/PROJECT/PROJECT-03/PCE-01.png", "alt": "Experimental Set-Up" },
+				{ "id": 2, "src": "/src/assets/PROJECT/PROJECT-03/PCE-02.png", "alt": "Set-Up Switch" },
+				{
+					"id": 3,
+					"src": "/src/assets/PROJECT/PROJECT-03/PCE-03.png",
+					"alt": "Propeller Design in CATIA V5"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"title": "Methodology",
+			"content": "The CFD model was created using ANSYS DesignModeler, with a computational domain divided into a rotating domain for resolving rotational effects and a static domain for steady-state interaction with ambient conditions. A structured/unstructured mesh was created, validated, and fine-tuned near blade surfaces for accurate boundary layer resolution. Mesh independence was verified for result consistency. The ANSYS Fluent solver used a steady-state model with the RANS turbulence model. Simulations were performed at 500, 600, 700, and 800 RPM with boundary conditions including uniform velocity or pressure inlet, pressure outlet, and no-slip wall conditions on propeller surfaces.",
+			"images": [
+				{
+					"id": 5,
+					"src": "/src/assets/PROJECT/PROJECT-03/PCE-05.png",
+					"alt": "Static Computational Domain"
+				},
+				{
+					"id": 6,
+					"src": "/src/assets/PROJECT/PROJECT-03/PCE-06.png",
+					"alt": "Rotary Computational Domain"
+				},
+				{ "id": 7, "src": "/src/assets/PROJECT/PROJECT-03/PCE07.png", "alt": "Rotary Domain Mesh" },
+				{ "id": 8, "src": "/src/assets/PROJECT/PROJECT-03/PCE-08.png", "alt": "Static Domain Mesh" }
+			]
+		},
+		{
+			"id": 3,
+			"title": "Results & Analysis",
+			"content": "The CFD analysis accurately predicted thrust force, with propulsion efficiency peaking at 43.18%, aligning with experimental data—particularly at higher RPMs. Velocity magnitude plots validated increasing tip speed and flow acceleration effects. Constant magnitude lines identified high-thrust zones near blade tips. Thrust increased with RPM, validating both experimental and CFD trends. The reliability of the turbulence model and meshing strategy was confirmed, and helical tip speeds showed a consistent trend with thrust increases.",
+			"images": [
+				{ "id": 9, "src": "/src/assets/PROJECT/PROJECT-03/PCE-09.png", "alt": "Velocity Contours" },
+				{ "id": 10, "src": "/src/assets/PROJECT/PROJECT-03/PCE-10.png", "alt": "Pressure Contours" },
+				{
+					"id": 11,
+					"src": "/src/assets/PROJECT/PROJECT-03/PCE-11.png",
+					"alt": "Thrust Comparison: CFD vs Experimental"
+				}
+			]
+		}
+	]
+}

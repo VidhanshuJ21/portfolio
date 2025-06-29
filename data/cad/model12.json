@@ -1,0 +1,22 @@
+{
+	"title": "Student F1 Car Chassis Design",
+	"intro": "The design focuses on a lightweight, rigid spaceframe structure optimized for strength, manufacturability, and compliance with Formula Student safety standards.",
+	"technologies": ["CATIA V5"],
+	"sections": [
+		{
+			"id": 1,
+			"title": "Overview",
+			"images": [
+				{ "id": 1, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-12/CH-01.png" },
+				{ "id": 2, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-12/CH-02.png" },
+				{ "id": 3, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-12/CH-03.png" }
+			]
+		},
+		{
+			"id": 2,
+			"title": "Draft",
+			"content": "The draft of the design was created in Onshape. All dimensions are in millimeters.",
+			"images": [{ "id": 4, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-12/CH-04.png" }]
+		}
+	]
+}

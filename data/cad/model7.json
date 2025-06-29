@@ -1,0 +1,37 @@
+{
+	"title": "Wind Tunnel Design",
+	"intro": "The project aims to design a compact wind tunnel system in Onshape for experimental and educational use, weighing approximately 580 kg. The wind tunnel, made of rosewood, combines structural integrity with portability and manufacturability, making it ideal for low-speed aerodynamic experiments.",
+	"technologies": ["Onshape"],
+	"specifications": [
+		{ "parameter": "Material", "value": "Rosewood" },
+		{ "parameter": "Weight", "value": "580 kg" }
+	],
+	"sections": [
+		{
+			"id": 1,
+			"title": "Overview",
+			"content": "The wind tunnel was designed using parametric CAD modeling in Onshape, featuring modular components. It includes an inlet section with a smooth converging profile, a test section with a rectangular cross-section optimized for scale models, and an outlet section with a gradient expansion for suction-based airflow generation. The material used is rosewood due to its high density and stiffness, ensuring minimal vibration and deformation during testing.",
+			"images": [
+				{
+					"id": 1,
+					"src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-7/WT-01.png"
+				},
+				{
+					"id": 2,
+					"src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-7/WT-02.png"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"title": "Draft",
+			"content": "The draft of the design was created in Onshape. All dimensions are in millimeters.",
+			"images": [
+				{
+					"id": 4,
+					"src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-7/WT-04.png"
+				}
+			]
+		}
+	]
+}

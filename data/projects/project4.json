@@ -1,0 +1,35 @@
+{
+	"title": "Smart Pomodoro Technique: An AI-Driven Adaptive Productivity Framework.",
+	"intro": "The Smart Pomodoro Technique, an AI-driven approach to time management, is being explored for its potential to optimize work efficiency in dynamic professional settings. This innovative system, which integrates artificial intelligence and mathematical modeling, offers personalized scheduling that evolves in real-time based on individual behavior and performance, enhancing productivity in the face of rapid digitization.",
+	"technologies": ["Rust", "TypeScript"],
+	"software_project": {
+		"link": "https://github.com/siddh34/pomodoro-app"
+	},
+	"sections": [
+		{
+			"id": 1,
+			"title": "Overview",
+			"content": "The Smart Pomodoro Technique uses a modular system structure with time categories, timer configuration components, and a feedback-adaptive loop to shape personalized session lengths.",
+			"images": [
+				{ "id": 1, "src": "/src/assets/PROJECT/PROJECT-04/POMO-01.png", "alt": "WorkFlow" },
+				{ "id": 2, "src": "/src/assets/PROJECT/PROJECT-04/POMO-02.png", "alt": "UI of the app" }
+			]
+		},
+		{
+			"id": 2,
+			"title": "Results",
+			"images": [
+				{
+					"id": 3,
+					"src": "/src/assets/PROJECT/PROJECT-04/POMO-03.png",
+					"alt": "Results for Statistical Model (Even Given Time)"
+				},
+				{
+					"id": 4,
+					"src": "/src/assets/PROJECT/PROJECT-04/POMO-04.png",
+					"alt": "Results for Statistical Model (Odd Given Time)"
+				}
+			]
+		}
+	]
+}
