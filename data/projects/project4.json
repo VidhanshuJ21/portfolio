@@ -21,12 +21,12 @@
 			"images": [
 				{
 					"id": 3,
-					"src": "/src/assets/PROJECT/PROJECT-04/POMO-03.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-04/POMO-03.png",
 					"alt": "Results for Statistical Model (Even Given Time)"
 				},
 				{
 					"id": 4,
-					"src": "/src/assets/PROJECT/PROJECT-04/POMO-04.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-04/POMO-04.png",
 					"alt": "Results for Statistical Model (Odd Given Time)"
 				}
 			]

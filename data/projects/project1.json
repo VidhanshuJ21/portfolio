@@ -16,32 +16,32 @@
 			"images": [
 				{
 					"id": 1,
-					"src": "/src/assets/PROJECT/PROJECT-01/DPS-01.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-01/DPS-01.png",
 					"alt": "4-bladed propeller-geometry"
 				},
 				{
 					"id": 2,
-					"src": "/src/assets/PROJECT/PROJECT-01/DPS-03.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-01/DPS-03.png",
 					"alt": "propeller-wing integrated geometry"
 				},
 				{
 					"id": 3,
-					"src": "/src/assets/PROJECT/PROJECT-01/DPS-08.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-01/DPS-08.png",
 					"alt": "3-bladed propeller-geometry"
 				},
 				{
 					"id": 4,
-					"src": "/src/assets/PROJECT/PROJECT-01/DPS-09.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-01/DPS-09.png",
 					"alt": "2-propeller aircraft configuration"
 				},
 				{
 					"id": 5,
-					"src": "/src/assets/PROJECT/PROJECT-01/DPS-10.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-01/DPS-10.png",
 					"alt": "4-propeller aircraft configuration"
 				},
 				{
 					"id": 6,
-					"src": "/src/assets/PROJECT/PROJECT-01/DPS-11.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-01/DPS-11.png",
 					"alt": "6-propeller aircraft configuration"
 				}
 			]
@@ -53,22 +53,22 @@
 			"images": [
 				{
 					"id": 7,
-					"src": "/src/assets/PROJECT/PROJECT-01/DPS-04.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-01/DPS-04.png",
 					"alt": "ANSYS-Computation Domain"
 				},
 				{
 					"id": 8,
-					"src": "/src/assets/PROJECT/PROJECT-01/DPS-05.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-01/DPS-05.png",
 					"alt": "ANSYS-Meshing"
 				},
 				{
 					"id": 9,
-					"src": "/src/assets/PROJECT/PROJECT-01/DPS-12.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-01/DPS-12.png",
 					"alt": "SimScale-Computation Domain"
 				},
 				{
 					"id": 10,
-					"src": "/src/assets/PROJECT/PROJECT-01/DPS-13.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-01/DPS-13.png",
 					"alt": "SimScale-Meshing"
 				}
 			]
@@ -80,22 +80,22 @@
 			"images": [
 				{
 					"id": 11,
-					"src": "/src/assets/PROJECT/PROJECT-01/DPS-06.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-01/DPS-06.png",
 					"alt": "ANSYS-Velocity Contours"
 				},
 				{
 					"id": 12,
-					"src": "/src/assets/PROJECT/PROJECT-01/DPS-07.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-01/DPS-07.png",
 					"alt": "Airfoil Comparison"
 				},
 				{
 					"id": 13,
-					"src": "/src/assets/PROJECT/PROJECT-01/DPS-14.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-01/DPS-14.png",
 					"alt": "SimScale-Velocity Contours"
 				},
 				{
 					"id": 14,
-					"src": "/src/assets/PROJECT/PROJECT-01/DPS-15.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-01/DPS-15.png",
 					"alt": "Thrust graph"
 				}
 			]

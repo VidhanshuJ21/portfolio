@@ -12,8 +12,8 @@
 			"title": "Overview",
 			"content": "This design was created in CATIA V5. The images showcase the parts in front, side, and isometric views.",
 			"images": [
-				{ "id": 1, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-01.png" },
-				{ "id": 2, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-02.png" }
+				{ "id": 1, "src": "/portfolio/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-01.png" },
+				{ "id": 2, "src": "/portfolio/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-02.png" }
 			]
 		},
 		{
@@ -27,9 +27,9 @@
 			"title": "Meshing and Boundary Conditions",
 			"content": "A mesh size of 3.5 mm was used. Two fixed supports were applied, and a force of 400 N was introduced as shown.",
 			"images": [
-				{ "id": 4, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-04.png" },
-				{ "id": 5, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-05.png" },
-				{ "id": 6, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-06.png" }
+				{ "id": 4, "src": "/portfolio/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-04.png" },
+				{ "id": 5, "src": "/portfolio/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-05.png" },
+				{ "id": 6, "src": "/portfolio/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-06.png" }
 			]
 		},
 		{
@@ -37,14 +37,14 @@
 			"title": "Finite Element Analysis – ANSYS FEA Structural",
 			"content": "The FEA analysis was performed using the defined mesh and boundary conditions. The results include total deformation, equivalent stress and strain, maximum shear stress, principal stress, and shear stress.",
 			"images": [
-				{ "id": 7, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-07.png" },
-				{ "id": 8, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-08.png" },
-				{ "id": 9, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-09.png" },
-				{ "id": 10, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-10.png" },
-				{ "id": 11, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-11.png" },
-				{ "id": 12, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-12.png" },
-				{ "id": 13, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-13.png" },
-				{ "id": 14, "src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-14.png" }
+				{ "id": 7, "src": "/portfolio/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-07.png" },
+				{ "id": 8, "src": "/portfolio/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-08.png" },
+				{ "id": 9, "src": "/portfolio/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-09.png" },
+				{ "id": 10, "src": "/portfolio/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-10.png" },
+				{ "id": 11, "src": "/portfolio/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-11.png" },
+				{ "id": 12, "src": "/portfolio/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-12.png" },
+				{ "id": 13, "src": "/portfolio/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-13.png" },
+				{ "id": 14, "src": "/portfolio/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-4/wng-14.png" }
 			]
 		}
 	]
