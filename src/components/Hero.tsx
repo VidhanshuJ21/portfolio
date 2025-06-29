@@ -56,13 +56,13 @@ export const Hero = () => {
 										name: "LinkedIn",
 										url: "https://www.linkedin.com/in/vidhanshu-jadhav-b5b5b8239/",
 										icon: "in",
-										bg: "bg-gray-600 hover:bg-blue-700",
+										bg: "bg-gray-600 hover:bg-orange-700",
 									},
 									{
 										name: "GitHub",
 										url: "https://github.com/VidhanshuJ21",
 										icon: "G",
-										bg: "bg-gray-800 hover:bg-gray-700",
+										bg: "bg-gray-600  hover:bg-orange-700",
 									},
 								].map((social) => (
 									<a
@@ -81,7 +81,7 @@ export const Hero = () => {
 					</div>
 
 					{/* Right Content - Profile Image */}
-					<div className="w-full lg:w-1/2 flex justify-end mt-16 lg:mt-0">
+					<div className="w-full lg:w-1/2 flex justify-center items-center mt-16 lg:mt-0">
 						<div className="relative">
 							{/* Glow Effect */}
 							<div className="absolute inset-0 bg-gradient-to-br from-orange-1000/30 to-orange-1000/20 rounded-full blur-3xl -z-10 w-full h-full scale-125"></div>
@@ -90,7 +90,7 @@ export const Hero = () => {
 								<img
 									src="/portfolio/src/assets/Poster_cover/VJportfolio-image.jpg"
 									alt="Vidhanshu Jadhav"
-									className="w-full h-half object-cover"
+									className="w-full h-full object-cover"
 									loading="eager"
 								/>
 								{/* Gradient Overlay */}
