@@ -4,9 +4,9 @@ export const Hero = () => {
   return (
     <section id="home" className="relative overflow-hidden pt-16 sm:pt-20 md:pt-24 lg:pt-28 xl:pt-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-8 md:gap-12 lg:gap-16 xl:gap-20">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-8 md:gap-12 lg:gap-16 xl:gap-20 max-w-7xl mx-auto">
           {/* Left Content - Text */}
-          <div className="w-full lg:w-1/2 xl:w-5/12 text-center lg:text-left">
+          <div className="w-full lg:w-1/2 text-center lg:text-left">
             <div className="max-w-2xl mx-auto lg:mx-0">
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mb-4 sm:mb-6">
                 <span className="block text-gray-300">HI, I AM</span>
@@ -48,7 +48,7 @@ export const Hero = () => {
                     name: 'LinkedIn', 
                     url: 'https://www.linkedin.com/in/vidhanshu-jadhav-b5b5b8239/', 
                     icon: 'in',
-                    bg: 'bg-blue-600 hover:bg-blue-700'
+                    bg: 'bg-gray-600 hover:bg-blue-700'
                   },
                   { 
                     name: 'GitHub', 
@@ -56,12 +56,6 @@ export const Hero = () => {
                     icon: 'G',
                     bg: 'bg-gray-800 hover:bg-gray-700'
                   },
-                  { 
-                    name: 'Email', 
-                    url: 'mailto:jadhavvidhanshu@gmail.com', 
-                    icon: '@',
-                    bg: 'bg-gray-800 hover:bg-gray-700'
-                  }
                 ].map((social) => (
                   <a
                     key={social.name}
@@ -79,18 +73,20 @@ export const Hero = () => {
           </div>
 
           {/* Right Content - Profile Image */}
-          <div className="w-full lg:w-1/2 xl:w-7/12 flex justify-center lg:justify-end mt-12 lg:mt-0">
-            <div className="relative w-64 h-80 sm:w-72 sm:h-96 md:w-80 md:h-[28rem] lg:w-[28rem] lg:h-[32rem] xl:w-[32rem] xl:h-[36rem]">
+          <div className="w-full lg:w-1/2 flex justify-end mt-16 lg:mt-0">
+            <div className="relative">
               {/* Glow Effect */}
-              <div className="absolute inset-0 bg-gradient-to-br from-orange-400/20 to-orange-600/10 rounded-3xl blur-2xl -z-10"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-orange-1000/30 to-orange-1000/20 rounded-full blur-3xl -z-10 w-full h-full scale-125"></div>
               {/* Image Container */}
-              <div className="w-full h-full bg-gradient-to-br from-orange-300 to-orange-500 rounded-3xl overflow-hidden shadow-2xl shadow-orange-500/20">
+              <div className="relative w-64 h-80 sm:w-72 sm:h-96 md:w-80 md:h-[28rem] lg:w-[28rem] lg:h-[32rem] xl:w-[32rem] xl:h-[36rem] overflow-hidden rounded-2xl border-2 border-orange-500/20 shadow-2xl shadow-orange-500/20">
                 <img 
                   src="/src/assets/Poster_cover/VJportfolio-image.jpg" 
                   alt="Vidhanshu Jadhav" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-half object-cover"
                   loading="eager"
                 />
+                {/* Gradient Overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-orange/20 to-transparent"></div>
               </div>
             </div>
           </div>
