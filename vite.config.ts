@@ -6,6 +6,7 @@ import { viteStaticCopy  } from 'vite-plugin-static-copy'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/portfolio/",
   plugins: [
     react(),
     tailwindcss(),
@@ -22,3 +23,4 @@ export default defineConfig({
     },
   }
 })
+

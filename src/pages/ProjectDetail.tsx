@@ -9,17 +9,17 @@ export default function ProjectDetail() {
     const { id } = useParams<{ id: string }>();
 
     useEffect(() => {
-        fetch(`/data/projects/project${id}.json`)
-            .then((res) => res.json())
-            .then((json) => setData(json))
-            .catch((err) => console.error(err));
+        fetch(`/portfolio/data/projects/project${id}.json`)
+			.then((res) => res.json())
+			.then((json) => setData(json))
+			.catch((err) => console.error(err));
     }, [id]);
 
     return (
 		<div className="min-h-screen bg-gray-900 text-white p-4 md:p-8">
 			<div className="max-w-6xl mx-auto">
 				<Link
-					to="/"
+					to="/portfolio"
 					className="inline-flex items-center text-orange-500 hover:text-orange-400 mb-8 transition-colors"
 				>
 					<svg

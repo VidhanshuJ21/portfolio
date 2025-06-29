@@ -10,7 +10,7 @@ export default function PortfolioDetail() {
 	const { id } = useParams<{ id: string }>();
 
 	useEffect(() => {
-		fetch(`/data/cad/model${id}.json`)
+		fetch(`/portfolio/data/cad/model${id}.json`)
 			.then((res) => res.json())
 			.then((json) => setData(json))
 			.catch((err) => console.error(err));
@@ -21,7 +21,7 @@ export default function PortfolioDetail() {
 		<div className="min-h-screen bg-gray-900 text-white p-4 md:p-8">
 			<div className="max-w-6xl mx-auto">
 				<Link
-					to="/"
+					to="/portfolio"
 					className="inline-flex items-center text-orange-500 hover:text-orange-400 mb-8 transition-colors"
 				>
 					<svg
@@ -76,17 +76,15 @@ export default function PortfolioDetail() {
 						))}
 					{/* Specifications Table */}
 					<div className="mb-16">
-                        {
-                            data && data.specifications && data.specifications.length > 0 ? (
-                                <div className="mb-6">
-                                    <h2 className="text-2xl font-semibold mb-6 text-orange-400">
-                                        Technical Specifications
-                                    </h2>
-                                </div>
-                            ) : (
-                                null
-                            )
-                        }
+						{data &&
+						data.specifications &&
+						data.specifications.length > 0 ? (
+							<div className="mb-6">
+								<h2 className="text-2xl font-semibold mb-6 text-orange-400">
+									Technical Specifications
+								</h2>
+							</div>
+						) : null}
 						<div className="overflow-x-auto">
 							<table className="min-w-full divide-y divide-gray-700">
 								<tbody className="divide-y divide-gray-700">

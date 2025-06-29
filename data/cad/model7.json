@@ -14,11 +14,11 @@
 			"images": [
 				{
 					"id": 1,
-					"src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-7/WT-01.png"
+					"src": "/portfolio/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-7/WT-01.png"
 				},
 				{
 					"id": 2,
-					"src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-7/WT-02.png"
+					"src": "/portfolio/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-7/WT-02.png"
 				}
 			]
 		},
@@ -29,7 +29,7 @@
 			"images": [
 				{
 					"id": 4,
-					"src": "/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-7/WT-04.png"
+					"src": "/portfolio/src/assets/PORTFOLIO-CAD-FEA/PORTFOLIO-7/WT-04.png"
 				}
 			]
 		}

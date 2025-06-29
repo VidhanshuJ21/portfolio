@@ -80,7 +80,7 @@ export const Hero = () => {
               {/* Image Container */}
               <div className="relative w-64 h-80 sm:w-72 sm:h-96 md:w-80 md:h-[28rem] lg:w-[28rem] lg:h-[32rem] xl:w-[32rem] xl:h-[36rem] overflow-hidden rounded-2xl border-2 border-orange-500/20 shadow-2xl shadow-orange-500/20">
                 <img 
-                  src="/src/assets/Poster_cover/VJportfolio-image.jpg" 
+                  src="/portfolio/src/assets/Poster_cover/VJportfolio-image.jpg" 
                   alt="Vidhanshu Jadhav" 
                   className="w-full h-half object-cover"
                   loading="eager"

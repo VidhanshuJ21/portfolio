@@ -10,17 +10,17 @@
 			"images": [
 				{
 					"id": 1,
-					"src": "/src/assets/PROJECT/PROJECT-05/W-09.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-05/W-09.png",
 					"alt": "Experimental Set-Up"
 				},
 				{
 					"id": 2,
-					"src": "/src/assets/PROJECT/PROJECT-05/W-10.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-05/W-10.png",
 					"alt": "Set-Up Switch"
 				},
 				{
 					"id": 3,
-					"src": "/src/assets/PROJECT/PROJECT-05/W-11.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-05/W-11.png",
 					"alt": "Propeller Design in CATIA V5"
 				}
 			]
@@ -32,17 +32,17 @@
 			"images": [
 				{
 					"id": 4,
-					"src": "/src/assets/PROJECT/PROJECT-05/W-01.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-05/W-01.png",
 					"alt": "Static Computational Domain"
 				},
 				{
 					"id": 5,
-					"src": "/src/assets/PROJECT/PROJECT-05/W-02.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-05/W-02.png",
 					"alt": "Rotary Computational Domain"
 				},
 				{
 					"id": 6,
-					"src": "/src/assets/PROJECT/PROJECT-05/W-03.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-05/W-03.png",
 					"alt": "Rotary Domain Mesh"
 				}
 			]
@@ -54,32 +54,32 @@
 			"images": [
 				{
 					"id": 7,
-					"src": "/src/assets/PROJECT/PROJECT-05/W-04.jpg",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-05/W-04.jpg",
 					"alt": "Velocity Contours"
 				},
 				{
 					"id": 8,
-					"src": "/src/assets/PROJECT/PROJECT-05/W-05.jpg",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-05/W-05.jpg",
 					"alt": "Pressure Contours 1"
 				},
 				{
 					"id": 9,
-					"src": "/src/assets/PROJECT/PROJECT-05/W-06.jpg",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-05/W-06.jpg",
 					"alt": "Pressure Contours 2"
 				},
 				{
 					"id": 10,
-					"src": "/src/assets/PROJECT/PROJECT-05/W-07.jpg",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-05/W-07.jpg",
 					"alt": "Thrust Comparison: CFD vs Experimental"
 				},
 				{
 					"id": 11,
-					"src": "/src/assets/PROJECT/PROJECT-05/W-08.jpg",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-05/W-08.jpg",
 					"alt": "Velocity Contours 2"
 				},
 				{
 					"id": 12,
-					"src": "/src/assets/PROJECT/PROJECT-05/W-12.png",
+					"src": "/portfolio/src/assets/PROJECT/PROJECT-05/W-12.png",
 					"alt": "Velocity Contours 3"
 				}
 			]
